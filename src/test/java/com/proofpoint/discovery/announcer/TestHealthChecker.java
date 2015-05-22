@@ -60,7 +60,7 @@ public class TestHealthChecker
                 "testhost.example.com",
                 null,
                 "external.example.com",
-                null, null, null);
+                null);
         checkStatus = HttpStatus.NO_CONTENT;
         checkException = false;
     }
