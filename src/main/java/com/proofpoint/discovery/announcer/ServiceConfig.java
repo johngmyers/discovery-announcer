@@ -2,7 +2,6 @@ package com.proofpoint.discovery.announcer;
 
 import com.google.common.base.Objects;
 import com.proofpoint.configuration.Config;
-import com.proofpoint.configuration.ConfigMap;
 import com.proofpoint.units.Duration;
 import com.proofpoint.units.MinDuration;
 
@@ -49,7 +48,6 @@ public class ServiceConfig
     }
 
     @Config("property")
-    @ConfigMap
     public ServiceConfig setProperties(Map<String, String> properties)
     {
         this.properties = properties;
